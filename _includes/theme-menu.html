@@ -1,7 +1,7 @@
 <div id="header">
-    <div class="container">     
+    <div class="container">
         <div class="logo">
-            <a href="/"><img src="assets/images/logo-1.png" width="200px" alt=""></a>
+            <a href="/"><img src="{% if site.header-image %}{{site.header-image}}{% else %}assets/images/logo-1.png{% endif %}" width="200px" alt=""></a>
         </div>
         <div id="nav">
             <a class="menu_res"><span></span><span></span><span></span></a>
@@ -10,7 +10,7 @@
                     {% assign pages_list = site.pages | sort:"url" %}
                     {% for node in pages_list %}
                     {% if node.title != null %}
-                        
+
                         {% if node.ignoreMenu != true %}
                         <li class="{% if page.url == node.url %} active{% endif %}"><a href="{{node.url}}">{{node.title}}</a></li>
                         {% endif %}
