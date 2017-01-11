@@ -1,7 +1,7 @@
 <div id="header">
     <div class="container">
         <div class="logo">
-            <a href="/"><img src="{% if site.header_image %}{{site.header_image}}{% else %}assets/images/logo-1.png{% endif %}" width="200px" alt=""></a>
+            <a href="/">{% if site.header_image != null %}<img src="{{site.header_image}}" width="200px" alt="imagea">{% else %}<img src="assets/images/logo-1.png" width="200px" alt="imageb">{% endif %}</a>
         </div>
         <div id="nav">
             <a class="menu_res"><span></span><span></span><span></span></a>
