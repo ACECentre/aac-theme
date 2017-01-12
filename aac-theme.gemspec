@@ -2,12 +2,12 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "aacinfo-theme"
-  spec.version       = "0.1.0"
+  spec.version       = "0.2.0"
   spec.authors       = ["Riten Vagadiya"]
   spec.email         = ["riten.s.v@gmail.com"]
 
   spec.summary       = %q{A simple single-pages AngularJS-based theme}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/acecentre/aac-theme"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(assets|_layouts|_includes|_sass|LICENSE|README)}i) }
