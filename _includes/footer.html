@@ -13,7 +13,7 @@
 							<ul class="social-links">
 								{% include parts/social-media.html %}
 								{% for p in site.pages %}
-									{% if p.url == '/privacy.html' or '/privacy/' %}
+									{% if p.url == '/privacy.html' or p.url == '/privacy/' %}
 										<li class="menu-item">
 											<a href="{{ site.baseurl }}/privacy/">Your privacy matters</a>
 										</li>
