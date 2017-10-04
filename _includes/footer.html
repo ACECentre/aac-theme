@@ -13,11 +13,11 @@
 							<ul class="social-links">
 								{% include parts/social-media.html %}
 								{% for p in site.pages %}
-									<!-- {% if p.url == '/privacy.md' or  p.url == '/privacy.html' or '/privacy/index.md' or  p.url == '/privacy/index.html' %} -->
+									{% if p.url == '/privacy.html' or '/privacy/' %}
 										<li class="menu-item">
-											<a href="{{ site.baseurl }}/privacy/">{{p.url}}</a>
+											<a href="{{ site.baseurl }}/privacy/">Your privacy matters</a>
 										</li>
-									<!-- {% endif %} -->
+									{% endif %}
 								{% endfor %}
 							</ul>
 						</div>
