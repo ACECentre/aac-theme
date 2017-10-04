@@ -1,5 +1,6 @@
 ---
 title: Getting started with AAC
+permalink: /
 seo-title: Getting started with AAC | AAC Books from Ace Centre
 description: Three books designed to help families and professionals get started with Augmentative and Alternative Communication (AAC). Edited by Ace Centre, a UK AAC/AT charity.
 layout: theme

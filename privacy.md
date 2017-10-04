@@ -1,5 +1,6 @@
 ---
 title: Privacy Policy
+permalink: /privacy/
 seo-title: Privacy Policy | AAC Books from Ace Centre
 description: Privacy policy for AAC Books
 layout: title-page
