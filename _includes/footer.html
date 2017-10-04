@@ -12,9 +12,17 @@
 						<div class="social-media">
 							<ul class="social-links">
 								{% include parts/social-media.html %}
-								<li class="menu-item">
-									<a href="{{ site.baseurl }}/privacy/">Your privacy matters</a>
-								</li>
+								{% for static_file in site.static_files %}
+									{% if static_file.path == '/privacy.md' or  static_file.path == '/privacy.html' %}
+										<li class="menu-item">
+											<a href="{{ site.baseurl }}/privacy">Your privacy matters</a>
+										</li>
+									{% elsif static_file.path == '/privacy/index.md' or  static_file.path == '/privacy/index.html' %}
+										<li class="menu-item">
+											<a href="{{ site.baseurl }}/privacy/">Your privacy matters</a>
+										</li>
+									{% endif %}
+								{% endfor %}
 							</ul>
 						</div>
 					</div>
