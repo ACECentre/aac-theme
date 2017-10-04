@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "aacinfo-theme"
-  spec.version       = "0.2.0"
-  spec.authors       = ["Riten Vagadiya"]
-  spec.email         = ["riten.s.v@gmail.com"]
+  spec.version       = "2.0.0"
+  spec.authors       = ["FIG"]
+  spec.email         = ["hello@fig.agency"]
 
-  spec.summary       = %q{A simple single-pages AngularJS-based theme}
+  spec.summary       = %q{GitHub pages theme for Ace Centre}
   spec.homepage      = "https://github.com/acecentre/aac-theme"
   spec.license       = "MIT"
 
